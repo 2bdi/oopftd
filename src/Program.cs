@@ -42,6 +42,7 @@ namespace ООПФТД
         }
     }
 
+
     class Program
     {
         static void Main(string[] args)
@@ -49,7 +50,7 @@ namespace ООПФТД
             Gold x1 = new Gold(-2f, 2f);
             Gold x2 = new Gold(-8f, 0f);
 
-            Console.Write("Экстремумы для функции f(x)=(x+1)^3+5*x^2\n");
+            Console.Write("Экстремум для функции f(x)=(x+1)^3+5*x^2\n");
             x1.print();
             x2.print();
         }
